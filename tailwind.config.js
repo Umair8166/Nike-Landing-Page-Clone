@@ -16,7 +16,13 @@ export default {
       '4xl': ['48px', '58px'],
       '8xl': ['96px', '106px']
     },
+
     extend: {
+      screens: {
+        'laptop': '1117px',
+
+        "wide": "1440px"
+      },
       fontFamily: {
         palanquin: ['Palanquin', 'sans-serif'],
         montserrat: ['Montserrat', 'sans-serif'],
@@ -35,9 +41,6 @@ export default {
         'hero': "url('assets/images/collection-background.svg')",
         'card': "url('assets/images/thumbnail-background.svg')",
       },
-      screens: {
-        "wide": "1440px"
-      }
     },
   },
   plugins: [],
