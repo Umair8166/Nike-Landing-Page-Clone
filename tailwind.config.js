@@ -19,7 +19,7 @@ export default {
 
     extend: {
       screens: {
-        'laptop': '1117px',
+        'laptop': '1072px',
 
         "wide": "1440px"
       },
