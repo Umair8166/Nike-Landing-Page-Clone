@@ -51,7 +51,7 @@ const Navbar = () => {
         {/* Sign In */}
         <a
           href="/sign-in"
-          className="font-[600] text-lg max-md:text-md font-montserrat text-slate-600 max-sm:hidden xl:pr-4"
+          className="lg:font-[600] text-lg max-md:text-md font-montserrat text-slate-600 max-sm:hidden xl:pr-4"
         >
           Sign in / Explore Now
         </a>
