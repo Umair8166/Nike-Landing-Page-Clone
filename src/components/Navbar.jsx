@@ -27,7 +27,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-6 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
         {/* Logo */}
         <a href="/">
@@ -51,7 +51,7 @@ const Navbar = () => {
         {/* Sign In */}
         <a
           href="/sign-in"
-          className="font-[600] text-lg max-md:text-md font-montserrat text-slate-600 max-sm:hidden"
+          className="font-[600] text-lg max-md:text-md font-montserrat text-slate-600 max-sm:hidden xl:pr-4"
         >
           Sign in / Explore Now
         </a>
@@ -68,8 +68,8 @@ const Navbar = () => {
 
           {/* Dropdown menu */}
           {isDropdownOpen && (
-            <div className="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white border border-gray-300 ">
-              <ul className="bg-white border border-gray-300 rounded-md shadow-lg">
+            <div className="origin-top-right absolute right-0 mt-2 w-40 rounded-md shadow-lg bg-white border border-gray-300">
+              <ul className="bg-white border border-gray-300 rounded-md shadow-lg overflow-auto">
                 {navLinks.map((item, index) => (
                   <li key={index}>
                     <a
